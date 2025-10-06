@@ -1,5 +1,8 @@
 //Section B 
+
+
 // 21. A Variable in Javascript is a container  used to store data values.
+
 let country = 'Bangladesh';
 console.log(country)//example
 
@@ -18,7 +21,25 @@ let students = ['Maisha', 'Anika', 'Raida'];
 
 console.log(students[1])
 
+//24
+
+function greet(){
+    console.log("Hello")
+}
+
+greet();
+
+//25
+for(let i =1; i<=5; i++){
+    console.log(i)
+}
+
+
+
 //Section C
+
+
+
 //26
 
 let x = 5;
@@ -34,6 +55,7 @@ arr.push(4);
 console.log(arr)
 
 //28 
+
 let obj = {
     name:'John',
     age: 25
@@ -48,6 +70,7 @@ let numbers = [2,4,6,8];
 console.log(numbers[2])
 
 //30
+
 let text='Javascript';
 
 console.log(text.slice(4,10))
